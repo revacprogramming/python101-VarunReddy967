@@ -12,6 +12,6 @@ for line in fh:
     number=line[num+1: ]
     value=number.strip()
     n=float(value)
-    result=result+n;
-    counter=counter+1;
+    result=result+n
+    counter=counter+1
 print("Average spam confidence:",(result/counter))
